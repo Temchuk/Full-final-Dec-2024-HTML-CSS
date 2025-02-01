@@ -1,0 +1,104 @@
+@media screen and (min-width: 769px) and (max-width: 1279px){
+
+    html{
+        font-size: 12px;
+    }
+
+    body{
+        height: auto;
+        width: 100vw;
+    }
+
+    /*-------------------*/
+    header nav{
+        width: 65vw;
+    }
+
+    header nav button{
+        width: 17.5vw;
+    }
+
+    header nav button img{
+        width: auto;
+        height: 3vh;
+    }
+
+    /*-------------------------*/
+
+    main {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main div{
+        height: 50vh;
+        justify-content: space-between;
+        margin-top: 0;
+    }
+
+    main div h1{
+        width: 42.8vw;
+        font-size: 3rem;
+    }
+
+    main img{
+        margin-top: 0;
+        height: auto;
+    }
+
+    /*--------------------*/
+
+    .browse-menu div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .browse-menu  img{
+        width: auto;
+        height: 2vh;
+        margin-bottom: 0.5vh;
+        margin-left: 1vh;
+    }
+
+    .browse-menu{
+        height: 6vh;
+    }
+    /*--------------------------------------------*/
+
+    .img-cards, .all-img-cards-row, .content-section, .section-1-4, .content-scroll{
+    height: auto;
+    }
+
+    .ellipse-content{
+        margin-top: 3vh;
+    }
+
+    /*-----------------------*/
+
+    .img{
+        width: 14.8vw;
+        height: auto;
+        margin-bottom: 1vh;
+        align-self: center;
+    }
+    /*-----------------------*/
+
+    .medium, .twitter, .instagram{
+        height: auto;
+    }
+
+    .text div p{
+        margin-bottom: 1.9vh;
+    }
+
+    .icon{
+        height: auto;
+        gap: 1.9vh;
+    }
+
+
+}

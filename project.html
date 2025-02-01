@@ -1,0 +1,519 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dasteen</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+
+    <link rel="stylesheet" href="1-main-1440.css">
+    <link rel="stylesheet" href="2-desktop-1279.css">
+    <link rel="stylesheet" href="3-table-768.css">
+    <link rel="stylesheet" href="4-mobile-480.css">
+
+</head>
+<body>
+
+
+<!--------------------------------header початок----------------------->
+<header>
+    <div class="logo">
+        <h2>Dasteen</h2>
+        <p>.Blog</p>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#category">Category</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li class="li-search"> <img src="img/icon/search.svg" alt="search"> <a href="#">Search</a></li>
+        </ul>
+        <button onclick="alert('hello')" ><img src="img/icon/coffee.svg" alt="coffee"> buy Me a Coffee</button>
+    </nav>
+</header>
+<!--------------------------------header кінець----------------------->
+
+
+
+<!--------------------------------main початок----------------------->
+<main id="home">
+    <div>
+        <h1>Hi, i’m Dasteen Front end dev</h1>
+        <p>On this blog I share tips and tricks, frameworks, projects, tutorials, etc Make sure you subscribe to get the latest updates</p>
+        <form class="form">
+            <input type="email" name="email" placeholder="Enter your email here....">
+            <button class="button button-1" onclick="alert('registered')">Subscribe</button>
+        </form>
+    </div>
+    <img src="img/cards/programmer.png" alt=programmer"">
+</main>
+<!--------------------------------main кінець----------------------->
+
+
+
+<!--------------------------------section1 Browse the category початок----------------------->
+<section class="browse-the-category" id="category">
+    <div class="div-all-category">
+        <div class="browse-menu">
+            <h3>Browse the category</h3>
+            <div>
+                <h4>see all category</h4>
+                <img src="img/icon/arrow.svg" alt="Frame-286">
+            </div>
+        </div>
+        <div class="div-css-react">
+            <div class="cards">
+                <div>
+                    <img src="img/category/CSS.png" alt="CSS">
+                    <h3>CSS</h3>
+                </div>
+            </div>
+            <div class="cards">
+                <div>
+                    <img src="img/category/JS.png" alt="JS">
+                    <h3>javascript</h3>
+                </div>
+            </div>
+            <div class="cards">
+                <div>
+                    <img src="img/category/tailwind.png" alt="tailwind">
+                    <h3>Tailwind</h3>
+                </div>
+            </div>
+            <div class="cards">
+                <div>
+                    <img src="img/category/vue.png" alt="vue">
+                    <h3>Vue JS</h3>
+                </div>
+            </div>
+            <div class="cards">
+                <div>
+                    <img src="img/category/react.png" alt="react">
+                    <h3>React JS</h3>
+                </div>
+            </div>
+        </div>
+        <img src="img/category/dots.png" alt="dots" class="dots">
+    </div>
+</section>
+<!--------------------------------section1 Browse the category кінець----------------------->
+
+
+
+
+
+<!--------------------------------scroll сторінка 2 початок----------------------->
+
+
+<section class="content-scroll">
+
+    <section class="content-section">
+
+
+<!--------------------------------section2 Featured Article початок----------------------->
+<section class="section-1-4">
+
+        <div class="browse-menu">
+            <h3>Featured Article</h3>
+            <div>
+                <h4>see all category</h4>
+                <img src="img/icon/arrow.svg" alt="Frame-286">
+            </div>
+        </div>
+
+    <div class="all-img-cards-row">
+    <!--------------------------------->
+        <div class="img-cards">
+            <div class="div-img-h4">
+                <img class="img" src="img/cards/img-1.png" alt="book">
+                <h4>Fundamental of javascript</h4>
+            </div>
+            <div class="ellipse-content">
+                <img src="img/cards/Ellipse-man.svg" alt="Ellipse-man">
+                <div>
+                    <h5>Dasteen</h5>
+                    <p>Jan 10, 2022     ∙     3 min read</p>
+                </div>
+            </div>
+        </div>
+    <!--------------------------------->
+    <div class="img-cards">
+        <div class="div-img-h4">
+            <img src="img/cards/img-2.png" alt="book" class="img">
+            <h4>Grid CSS make your life easier</h4>
+        </div>
+        <div class="ellipse-content">
+            <img src="img/cards/Ellipse-man.svg" alt="Ellipse">
+            <div>
+                <h5>Dasteen</h5>
+                <p>Jan 10, 2022     ∙     3 min read</p>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------->
+    <div class="img-cards">
+        <div class="div-img-h4">
+            <img src="img/cards/img-3.png" alt="book" class="img">
+            <h4>Make animated light mode and dark mode toggle with CSS</h4>
+        </div>
+        <div class="ellipse-content">
+            <img src="img/cards/Ellipse-man.svg" alt="Ellipse">
+            <div>
+                <h5>Dasteen</h5>
+                <p>Jan 10, 2022     ∙     3 min read</p>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------->
+    <div class="img-cards">
+        <div class="div-img-h4">
+            <img src="img/cards/img-4.png" alt="book" class="img">
+            <h4>Make tic tac toe games with react JS</h4>
+        </div>
+        <div class="ellipse-content">
+            <img src="img/cards/Ellipse-man.svg" alt="Ellipse">
+            <div>
+                <h5>Dasteen</h5>
+                <p>Jan 10, 2022     ∙     3 min read</p>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------->
+    </div>
+</section>
+<!--------------------------------section2 Featured Article кінець----------------------->
+
+
+
+<!--------------------------------section3 CSS початок----------------------->
+        <section class="section-1-4" id="CSS">
+
+            <div class="browse-menu">
+                <h3>CSS</h3>
+                <div>
+                    <h4>see all category</h4>
+                    <img src="img/icon/arrow.svg" alt="Frame-286">
+                </div>
+            </div>
+
+            <div class="all-img-cards-row">
+                <!--------------------------------->
+                <div class="img-cards">
+                    <div class="div-img-h4">
+                        <img src="img/cards/img-5.png" alt="book" class="img">
+                        <h4>Flexbox cSS : Everything you need to know</h4>
+                    </div>
+                    <div class="ellipse-content">
+                        <img src="img/cards/Ellipse-man.svg" alt="Ellipse">
+                        <div>
+                            <h5>Dasteen</h5>
+                            <p>Jan 10, 2022     ∙     3 min read</p>
+                        </div>
+                    </div>
+                </div>
+                <!--------------------------------->
+                <div class="img-cards">
+                    <div class="div-img-h4">
+                        <img src="img/cards/img-2.png" alt="book" class="img">
+                        <h4>Grid CSS make your life easier</h4>
+                    </div>
+                    <div class="ellipse-content">
+                        <img src="img/cards/Ellipse-man.svg" alt="Ellipse">
+                        <div>
+                            <h5>Dasteen</h5>
+                            <p>Jan 10, 2022     ∙     3 min read</p>
+                        </div>
+                    </div>
+                </div>
+                <!--------------------------------->
+                <div class="img-cards">
+                    <div class="div-img-h4">
+                        <img src="img/cards/img-6.png" alt="book" class="img">
+                        <h4>3 easy way to make div center</h4>
+                    </div>
+                    <div class="ellipse-content">
+                        <img src="img/cards/Ellipse-man.svg" alt="Ellipse">
+                        <div>
+                            <h5>Dasteen</h5>
+                            <p>Jan 10, 2022     ∙     3 min read</p>
+                        </div>
+                    </div>
+                </div>
+                <!--------------------------------->
+                <div class="img-cards">
+                    <div class="div-img-h4">
+                        <img src="img/cards/img-3.png" alt="book" class="img">
+                        <h4>Make animated light mode and dark mode toggle with CSS</h4>
+                    </div>
+                    <div class="ellipse-content">
+                        <img src="img/cards/Ellipse-man.svg" alt="Ellipse">
+                        <div>
+                            <h5>Dasteen</h5>
+                            <p>Jan 10, 2022     ∙     3 min read</p>
+                        </div>
+                    </div>
+                </div>
+                <!--------------------------------->
+            </div>
+        </section>
+<!--------------------------------section3 CSS кінець----------------------->
+
+
+
+<!--------------------------------section4 javascript початок----------------------->
+        <section class="section-1-4" id="javascript">
+
+            <div class="browse-menu">
+                <h3>javascript</h3>
+                <div>
+                    <h4>see all category</h4>
+                    <img src="img/icon/arrow.svg" alt="Frame-286">
+                </div>
+            </div>
+
+            <div class="all-img-cards-row">
+                <!--------------------------------->
+                <div class="img-cards">
+                    <div class="div-img-h4">
+                        <img src="img/cards/img-7.png" alt="book" class="img">
+                        <h4>array in javasript - Learn JS #3</h4>
+                    </div>
+                    <div class="ellipse-content">
+                        <img src="img/cards/Ellipse-man.svg" alt="Ellipse">
+                        <div>
+                            <h5>Dasteen</h5>
+                            <p>Jan 10, 2022     ∙     3 min read</p>
+                        </div>
+                    </div>
+                </div>
+                <!--------------------------------->
+                <div class="img-cards">
+                    <div class="div-img-h4">
+                        <img src="img/cards/img-1.png" alt="book" class="img">
+                        <h4>Fundamental of javascript</h4>
+                    </div>
+                    <div class="ellipse-content">
+                        <img src="img/cards/Ellipse-man.svg" alt="Ellipse">
+                        <div>
+                            <h5>Dasteen</h5>
+                            <p>Jan 10, 2022     ∙     3 min read</p>
+                        </div>
+                    </div>
+                </div>
+                <!--------------------------------->
+                <div class="img-cards">
+                    <div class="div-img-h4">
+                        <img src="img/cards/img-8.png" alt="book" class="img">
+                        <h4>7 project with javascript you must try for your portfolio</h4>
+                    </div>
+                    <div class="ellipse-content">
+                        <img src="img/cards/Ellipse-man.svg" alt="Ellipse">
+                        <div>
+                            <h5>Dasteen</h5>
+                            <p>Jan 10, 2022     ∙     3 min read</p>
+                        </div>
+                    </div>
+                </div>
+                <!--------------------------------->
+                <div class="img-cards">
+                    <div class="div-img-h4">
+                        <img src="img/cards/img-9.png" alt="book" class="img">
+                        <h4>make simple calculator with javascript</h4>
+                    </div>
+                    <div class="ellipse-content">
+                        <img src="img/cards/Ellipse-man.svg" alt="Ellipse">
+                        <div>
+                            <h5>Dasteen</h5>
+                            <p>Jan 10, 2022     ∙     3 min read</p>
+                        </div>
+                    </div>
+                </div>
+                <!--------------------------------->
+            </div>
+        </section>
+<!--------------------------------section4 javascript кінець----------------------->
+
+
+
+<!--------------------------------section5 React JS початок----------------------->
+        <section class="section-1-4" id="react">
+
+            <div class="browse-menu">
+                <h3>React JS</h3>
+                <div>
+                    <h4>see all category</h4>
+                    <img src="img/icon/arrow.svg" alt="Frame-286">
+                </div>
+            </div>
+
+            <div class="all-img-cards-row">
+                <!--------------------------------->
+                <div class="img-cards">
+                    <div class="div-img-h4">
+                        <img src="img/cards/img-10.png" alt="book" class="img">
+                        <h4>first month of leaning react jS</h4>
+                    </div>
+                    <div class="ellipse-content">
+                        <img src="img/cards/Ellipse-man.svg" alt="Ellipse">
+                        <div>
+                            <h5>Dasteen</h5>
+                            <p>Jan 10, 2022     ∙     3 min read</p>
+                        </div>
+                    </div>
+                </div>
+                <!--------------------------------->
+                <div class="img-cards">
+                    <div class="div-img-h4">
+                        <img src="img/cards/img-11.png" alt="book" class="img">
+                        <h4>build markdown editor with react JS</h4>
+                    </div>
+                    <div class="ellipse-content">
+                        <img src="img/cards/Ellipse-man.svg" alt="Ellipse">
+                        <div>
+                            <h5>Dasteen</h5>
+                            <p>Jan 10, 2022     ∙     3 min read</p>
+                        </div>
+                    </div>
+                </div>
+                <!--------------------------------->
+                <div class="img-cards">
+                    <div class="div-img-h4">
+                        <img src="img/cards/img-12.png" alt="book" class="img">
+                        <h4>getting started with react JS</h4>
+                    </div>
+                    <div class="ellipse-content">
+                        <img src="img/cards/Ellipse-man.svg" alt="Ellipse">
+                        <div>
+                            <h5>Dasteen</h5>
+                            <p>Jan 10, 2022     ∙     3 min read</p>
+                        </div>
+                    </div>
+                </div>
+                <!--------------------------------->
+                <div class="img-cards">
+                    <div class="div-img-h4">
+                        <img src="img/cards/img-4.png" alt="book" class="img">
+                        <h4>Make tic tac toe games with react JS</h4>
+                    </div>
+                    <div class="ellipse-content">
+                        <img src="img/cards/Ellipse-man.svg" alt="Ellipse">
+                        <div>
+                            <h5>Dasteen</h5>
+                            <p>Jan 10, 2022     ∙     3 min read</p>
+                        </div>
+                    </div>
+                </div>
+                <!--------------------------------->
+            </div>
+        </section>
+<!--------------------------------section5 React JS кінець----------------------->
+        <button class="button button-2" onclick="alert('more')">More Article</button>
+
+</section>
+</section>
+<!--------------------------------scroll сторінка 2 кінець----------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-------------------------------- address початок----------------------->
+<address>
+    <div class="all-address">
+        <img src="img/cards/post.png" alt="post">
+        <div>
+            <h2>Subscribe For the lastest updates</h2>
+            <p>Subscribe For the lastest updates</p>
+        </div>
+        <form class="form">
+            <input type="email" name="email" placeholder="Enter your email here....">
+            <button class="button button-1" onclick="alert('registered')">Subscribe</button>
+        </form>
+    </div>
+</address>
+<!--------------------------------address кінець----------------------->
+
+
+
+<!-------------------------------- footer початок----------------------->
+<footer id="about">
+    <div>
+    <div class="border">
+        <div class="icon">
+            <div class="logo">
+                <h2>Dasteen</h2>
+                <p>.Blog</p>
+            </div>
+            <p class="darmawan">Digitaldastin by Dastin Darmawan</p>
+            <div class="social_icons">
+                <a href="#">
+                    <img src="img/social_icons/Medium.png" alt="Medium" class="medium">
+                </a>
+                <a href="#">
+                    <img src="img/social_icons/Twitter.png" alt="Twitter" class="twitter">
+                </a>
+
+                <a href="#">
+                    <img src="img/social_icons/Instagram.png" alt="Instagram" class="instagram">
+                </a>
+                <a href="#">
+                    <img src="img/social_icons/Linkedin.png" alt="Linkedin" class="instagram">
+                </a>
+            </div>
+        </div>
+        <div class="text">
+            <div>
+                <p><a href="#" class="block-title">Category</a></p>
+                <p><a href="#CSS">CSS</a></p>
+                <p><a href="#javascript">Javascript</a></p>
+                <p><a href="#">Tailwind</a></p>
+                <p><a href="#react">React JS</a></p>
+                <p><a href="#">More Category</a></p>
+            </div>
+            <div>
+                <p><a href="#" class="block-title">About Me</a></p>
+                <p><a href="#">About Me</a></p>
+                <p><a href="#">Projects</a></p>
+                <p><a href="#">Achievement</a></p>
+            </div>
+            <div>
+                <p><a href="#" class="block-title">Get in touch</a></p>
+                <p><a href="tel:+62-8XXX-XXX-XX">+62-8XXX-XXX-XX</a></p>
+                <p><a href="mailto:demo@gmail.comwind">demo@gmail.comwind</a></p>
+            </div>
+            <div>
+                <p><a href="#" class="block-title">Follow Us</a></p>
+                <p><a href="#">Medium</a></p>
+                <p><a href="#">Instagram</a></p>
+                <p><a href="#">Twitter</a></p>
+                <p><a href="#">Facebook</a></p>
+            </div>
+
+        </div>
+    </div>
+
+    <p class="copyright">© 2025 Digitaldastin</p>
+    </div>
+
+</footer>
+<!--------------------------------footer кінець----------------------->
+
+
+
+</body>
+</html>

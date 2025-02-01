@@ -1,0 +1,262 @@
+@media screen and (max-width: 480px)
+{
+    html{
+        font-size: 10px;
+    }
+
+    body{
+        width: 100vw;
+        height: auto;
+    }
+
+/*-------------------------------*/
+    header{
+        padding: 0.4vh 0;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1vw;
+        height: auto;
+    }
+
+    header nav{
+        width: 95%;
+    }
+
+    header nav ul{
+        width: 100%;
+        gap: 2vw;
+    }
+
+    header nav button{
+        width: 30vw;
+    }
+
+    header nav button img{
+        display: none;
+    }
+
+    /*------------------------------------*/
+
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 2%;
+    }
+
+    main img{
+        margin-top: 5vh;
+        height: auto;
+        width: 85%;
+    }
+
+    main div {
+        margin-top: 0;
+        height: auto;
+        width: 85%;
+    }
+
+    main div h1{
+        width: 100%;
+    }
+
+    main div p{
+        width: 100%;
+    }
+
+    .form {
+        width: auto;
+    }
+
+    .form input{
+        width: 37vw;
+    }
+
+    .button-1{
+        width: 25vw;
+    }
+
+    /*----------------------------*/
+
+    .browse-menu div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .browse-menu  img{
+        width: auto;
+        height: 2vh;
+        margin-bottom: 0.5vh;
+        margin-left: 1vh;
+    }
+
+    .browse-the-category{
+        padding-bottom: 1vh;
+        height: auto;
+    }
+
+    .div-all-category{
+        height: auto;
+    }
+
+    .div-css-react{
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: center;
+        margin-top: 2vh;
+    }
+
+    .cards {
+        width: 26vw;
+        height: 20vh;
+    }
+
+    .cards div{
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2vh;
+    }
+
+    .cards div img{
+        width: auto;
+        height: 9vh;
+    }
+
+    .dots{
+        display: none;
+    }
+
+    /*-------------------------*/
+
+    .content-scroll {
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-section{
+        height: auto;
+        margin: 5vh auto;
+        gap: 5vh;
+    }
+
+    .section-1-4{
+        height: auto;
+    }
+
+    .all-img-cards-row{
+        height: auto;
+        flex-wrap: wrap;
+        gap: 2vh 2vw;
+    }
+
+    .img-cards{
+        width: 42vw;
+        height: auto;
+        align-items: center;
+    }
+
+    .img{
+        width: 100%;
+        height: auto;
+        margin-bottom: 1vh;
+    }
+
+    .div-img-h4{
+        display: flex;
+        text-align: center;
+        margin-bottom: 1.5vh;
+    }
+
+    .div-img-h4 h4{
+        width: auto;
+    }
+
+    .ellipse-content img{
+        width: 9vw;
+        height: auto;
+    }
+
+    .ellipse-content p{
+        width: auto;
+    }
+
+    .button-2{
+        width: 25vw;
+    }
+
+    /*------------------------------------*/
+
+    address{
+        height: auto;
+    }
+
+    .all-address{
+        margin: 5vh auto;
+        width: 80%;
+    }
+
+    address div img{
+        width: 15vw;
+        height: auto;
+    }
+
+    /*------------------------------------------*/
+
+    footer{
+        height: auto;
+        text-align: center;
+    }
+
+    .border{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        gap: 5vh;
+        margin: 5vh 0;
+        padding-bottom: 0;
+    }
+
+    .icon{
+        align-items: center;
+        height: auto;
+        gap: 1.9vh;
+    }
+
+    .medium{
+        width: auto;
+        height: 3.3vh;
+
+    }
+
+    .twitter{
+        width: auto;
+        height: 2.8vh;
+    }
+
+    .instagram{
+        width: auto;
+        height: 3vh;
+    }
+
+    .text{
+        width: auto;
+        flex-wrap: wrap;
+        gap: 3vh 5vw;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .text div{
+        width: 45%;
+    }
+
+}

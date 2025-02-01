@@ -1,0 +1,631 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+html{
+    font-size: 16px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+.plus-jakarta-sans{
+                        font-family: "Plus Jakarta Sans", serif;
+                        font-optical-sizing: auto;
+                        font-weight: 400;
+                        font-style: normal;
+                    }
+
+body{
+    font-family: "Plus Jakarta Sans", serif;
+    background: #EFF0F3;
+    height: 571.2vh;
+}
+
+:root{
+    --White:#FFFFFE;
+    --Light-Grey-1: #EFF0F3;
+    --Light-Grey-2: #E4E5E9;
+    --Grey: #C0C0C0;
+    --Dark-Grey: #9A9494;
+    --Black: #2B2C34;
+    --Blue: #6246EA;
+}
+
+/*----------------- header початок--------------------------------------------- */
+
+header{
+    height: 10.3vh;
+    width: 100%;
+    background: #EFF0F3;
+    box-shadow: 0.5vh 0.4vw 1.5vh 0 rgba(215, 215, 215, 0.25);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding-right:6.6vw;
+    padding-left: 6.6vw;
+    z-index: 1;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: auto;
+    height: auto;
+}
+
+.logo h2{
+    color: #001858;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.logo p{
+    padding-bottom: 0.4vh;
+    color: var(--Blue, #6246EA);
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    gap: 3.5vw;
+    width: 52.5vw;
+    height: 5.2vh;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3.5vw;
+}
+
+header nav ul li a {
+    color: var(--Black, #2B2C34);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.li-search{
+    display: flex;
+    gap: 0.7vw;
+}
+
+header nav button img{
+    width: 1.7vw;
+    height: 2.9vh;
+}
+
+header nav button{
+    display: flex;
+    align-items: center;
+    gap: 0.7vw;
+    border-radius: 0.25rem;
+    background: var(--Blue, #6246EA);
+    color: #FFFFFE;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    width: 14.8vw;
+    height: 100%;
+    justify-content: center;
+
+}
+/*----------------- header кінець--------------------------------------------- */
+
+
+
+/*----------------- main початок--------------------------------------------- */
+
+main{
+    height: 107.3vh;
+    display: flex;
+    flex-direction: row;
+    gap:8.1vw;
+    padding-left: 6.6vw;
+    padding-right: 6.6vw;
+}
+
+main div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 41.1vh;
+    gap: 3.6vh;
+    margin-top: 32.3vh;
+}
+
+main div h1{
+    width: 42.8vw;
+    color: #2B2C34;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+main div p{
+    width: 45.3vw;
+    color: var(--Dark-Grey, #9A9494);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-left: 0.2vw solid #2B2C34 ;
+    padding-left: 0.8vw;
+}
+
+.form {
+    width: 42.3vw;
+    height: 8vh;
+    gap: 1.4vw;
+    display: flex;
+   flex-direction: row;
+}
+
+.form input{
+    width: 30.8vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left:1.7vw;
+    gap: 0.7vw;
+    border-radius: 0.5rem;
+    background: var(--White, #FFFFFE);
+    color: var(--Grey, #C0C0C0);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--White, #FFFFFE);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    border-radius: 0.5rem;
+    background: var(--Blue, #6246EA);
+}
+
+.button-1{
+    width: 10.1vw;
+    height: 8vh;
+}
+
+main img{
+    width: 32.6vw;
+    height: 46.1vh;
+    padding: 1.5vh 1.3vw 1.3vh 1.2vw;
+    background: #EFF0F3;
+    margin-top: 29.8vh;
+}
+/*----------------- main кінець--------------------------------------------- */
+
+
+
+/*----------------- section1 Browse the category початок-------------------------------------- */
+.browse-the-category{
+    height: 59.6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-margin-top: 10.3vh;
+}
+
+.div-all-category{
+    width: 86.9vw;
+    height: 43.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.browse-menu{
+    display: flex;
+    width: 100%;
+    height: 4.2vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.browse-menu h3{
+    color: var(--Black, #2B2C34);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.browse-menu div{
+    display: flex;
+    flex-direction: row;
+}
+
+.browse-menu h4{
+    color: var(--Black, #2B2C34);
+    text-align: right;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.browse-menu  img{
+    width: 0.4vw;
+    height: 1.7vh;
+    margin: 1.1vh 0.5vw 0.2vh 0.8vw;
+}
+
+/*-----------------cards початок-----------------*/
+.div-css-react{
+    height: 33.4vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2.6vw;
+}
+
+.cards{
+    width: 15.3vw;
+    height: 33.4vh;
+    border-radius: 0.5rem;
+    background: var(--White, #FFFFFE);
+}
+
+.cards div{
+    height: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3.6vh;
+    margin: 7.7vh auto 11.3vh 2.1vw;
+}
+
+.cards div img{
+    width: 4.2vw;
+    height: 7.2vh;
+}
+
+.cards div h3{
+    color: var(--Black, #2B2C34);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.cards:hover {
+    background: var(--Blue, #6246EA);
+}
+
+.cards:hover h3 {
+    color: var(--White, #FFFFFE);
+}
+
+.dots{
+    width: 77.8vw;
+    height: 11.9vh;
+    position: absolute;
+    bottom: -6vh; right: -3.9vw;
+    z-index: -1;
+}
+/*----------------- section1 Browse the category кінець-------------------------------------- */
+
+
+
+
+/*--------------------------- scroll сторінка 2 початок-------------------------------------------*/
+.content-scroll{
+    background: #FFFFFE;
+    height: 298.5vh;
+    display: flex;
+
+}
+
+.content-section{
+    width: 86.9vw;
+    height: 279.4vh;
+    margin: 9.5vh 6.5vw;
+    gap: 9.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-1-4{
+    width: 100%;
+    height: 58.4vh;
+    scroll-margin-top: 10.3vh;
+}
+
+.all-img-cards-row{
+    width: 86.9vw;
+    height: 50.7vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.1vw;
+    margin-top: 3.6vh;
+}
+
+.img-cards{
+    width: 20.8vw;
+    height: 50.7vh;
+    padding: 2.4vh 1.4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.img-cards:hover{
+    box-shadow: 0.5vh 0.4vw 1.5vh 0 rgba(215, 215, 215, 0.25);
+}
+
+.div-img-h4{
+    display: flex;
+    flex-direction: column;
+}
+
+.img{
+    width: 18.1vw;
+    height: 23.6vh;
+    border-radius: 0.787rem;
+    background:  lightgray 50% / cover no-repeat;
+    margin-bottom: 3vh;
+}
+
+.div-img-h4 h4{
+    width: 18.1vw;
+    color: var(--Black, #2B2C34);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.ellipse-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1vw;
+}
+
+.ellipse-content img{
+    width: 4vw;
+    height: auto;
+
+}
+
+.ellipse-content h5{
+    width: 5.1vw;
+    height: 2.5vh;
+    color: var(--Black, #2B2C34);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.ellipse-content p{
+    margin-top: 0.5vh;
+    width: 12.8vw;
+    height: 2.5vh;
+    color: var(--Black, #2B2C34);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.button-2{
+    width: 11.5vw;
+    height: 7.6vh;
+}
+/*--------------------------- scroll сторінка 2 кінець-------------------------------*/
+
+
+
+
+
+/*--------------------------------- address початок ----------------------------*/
+address{
+    background: var(--Light-Grey-1, #EFF0F3);
+    height: 54vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-address{
+    padding: 2px;
+    width: 48.3vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.4vh;
+}
+address div img{
+    width: 9vw;
+    height: auto;
+}
+.all-address div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2vh;
+}
+address h2{
+    color: var(--Black, #2B2C34);
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+address p{
+    width: 48.3vw;
+    color: var(--Grey, #C0C0C0);
+    text-align: center;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*--------------------------------- address кінець ----------------------------*/
+
+
+
+footer{
+    background: var(--Light-Grey-2, #E4E5E9);
+    height: 51.8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.1vh;
+}
+
+.border{
+    width: 86.8vw;
+    height: 35.2vh;
+    border-bottom: 0.063rem solid #C0C0C0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 6vh;
+    margin-top: 8.3vh;
+    margin-bottom: 3.1vh;
+}
+
+.darmawan{
+    color: var(--Black, #2B2C34);
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: auto;
+    height: 16.4vh;
+}
+.social_icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2.1vw;
+    height: 3.6vh;
+}
+
+.medium{
+    width: 2.1vw;
+    height: 3.6vh;
+}
+
+.twitter{
+    width: 1.5vw;
+    height: 2.1vh;
+}
+
+.instagram{
+        width: 1.7vw;
+        height: 2.9vh;
+}
+
+.text{
+    width: 55.9vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.text div p a{
+    color: var(--Black, #2B2C34);
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text div p{
+    margin-bottom: 2.4vh;
+}
+
+.text div p .block-title{
+    color: var(--Black, #2B2C34);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.text div p:first-child {
+    margin-bottom: 3vh;
+}
+
+.copyright{
+    margin-bottom: 3.1vh;
+    color: var(--Black, #2B2C34);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
+
